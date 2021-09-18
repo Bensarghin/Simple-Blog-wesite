@@ -1,0 +1,21 @@
+.btn{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#header-title{
+    margin: 20px auto;
+}
+
+#header-title h3, 
+#header-title a{
+    display:inline-block;
+}
+#header-title h3{
+    color: #696969c2;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#header-title a{
+    float: right;
+}
