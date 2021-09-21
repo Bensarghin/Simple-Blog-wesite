@@ -29,6 +29,7 @@ Route::namespace('frontoffice')->group(function(){
     
     Route::get('/blogs', [BlogsController::class,'index'])->name('blogs');
     Route::get('/writeblogs', [BlogsController::class,'addBlog'])->name('blog.add');
+    Route::post('/writeblogs', [BlogsController::class,'addBlog'])->name('blog.add');
 });
 Auth::routes();
 
